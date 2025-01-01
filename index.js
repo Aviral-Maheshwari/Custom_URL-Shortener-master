@@ -18,9 +18,9 @@ app.use(express.json());
 app.use(express.static("./build"));
 
 // Connect to MongoDB
-connectToMongoDB("mongodb://localhost:27017/short-url").then(() =>
-  console.log("MongoDB Connected")
-);
+connectToMongoDB(
+  "mongodb+srv://techaviral:dohF7Qq0QPqHJr9L@techaviral0.i812k.mongodb.net/?retryWrites=true&w=majority&appName=techaviral0"
+).then(() => console.log("MongoDB Connected"));
 
 // Use the URL routes
 app.use("/url", urlRoute);
