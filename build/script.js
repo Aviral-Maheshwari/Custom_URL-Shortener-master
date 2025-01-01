@@ -11,7 +11,7 @@ document
     }
 
     try {
-      const response = await fetch("http://localhost:8001/url", {
+      const response = await fetch("/url", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
