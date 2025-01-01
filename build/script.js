@@ -24,7 +24,7 @@ document
       if (response.ok) {
         document.getElementById(
           "result"
-        ).innerHTML = `Shortened URL: <a href="http://localhost:8001/${data.id}">http://localhost:8001/${data.id}</a>`;
+        ).innerHTML = `Shortened URL: <a href="https://cusotmurl-shortener-master-production.up.railway.app/${data.id}">https://cusotmurl-shortener-master-production.up.railway.app/${data.id}</a>`;
       } else {
         console.log("Server Error:", data.error); // Log server-side error
         document.getElementById("result").innerHTML = `Error: ${data.error}`;
