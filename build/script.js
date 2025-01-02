@@ -24,7 +24,7 @@ document
       if (response.ok) {
         document.getElementById(
           "result"
-        ).innerHTML = `Shortened URL: <a href="https://shortty.up.railway.app/${data.id}">https://shortty.up.railway.app/${data.id}</a>`;
+        ).innerHTML = `Shortened URL: <a href="https://shorty.batua.site/${data.id}">https://shorty.batua.site/${data.id}</a>`;
       } else {
         console.log("Server Error:", data.error); // Log server-side error
         document.getElementById("result").innerHTML = `Error: ${data.error}`;
