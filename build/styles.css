@@ -44,7 +44,7 @@ body {
   }
   
   button {
-    background: #ff5722;
+    background: hsl(172, 75%, 49%);
     color: #fff;
     border: none;
     padding: 0.8rem;
